@@ -28,8 +28,8 @@ class MusicLibraryController
       #  list_songs_by_artist 
       #elsif input == "list genre"
       #  list_songs_by_genre 
-      #else input == "play song"
-      #  play_song
+      else input == "play song"
+        play_song
       end
       input = gets.strip 
     end
