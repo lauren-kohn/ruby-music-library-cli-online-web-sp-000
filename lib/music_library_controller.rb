@@ -30,7 +30,7 @@ class MusicLibraryController
       #  list_songs_by_genre 
       #else input == "play song"
       #  play_song
-      #end
+      end
       input = gets.strip 
     end
   end
